@@ -1,0 +1,979 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+     
+    <style> 
+ 
+
+
+
+
+
+        #ul1 {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 60px;
+            background-color: blue;
+        }
+
+        li {
+            float: left;
+        }
+
+
+        #fb {
+            position: relative;
+            top: 10px;
+        }
+
+        #twtr {
+            position: relative;
+            top: 10px;
+            left: 30px;
+        }
+
+        #inst {
+            position: relative;
+            top: 10px;
+            left: 60px;
+        }
+
+        #whts {
+            position: relative;
+            top: 10px;
+            left: 90px;
+        }
+
+        #h {
+            color: white;
+            position: relative;
+            top: 19px;
+            left: 250px;
+            color: white;
+        }
+
+        #Button1 {
+            position: relative;
+            top: 15px;
+            left: 380px;
+            color: black;
+            background-color: white;
+            width: 100px;
+            height: 30px;
+        }
+
+        #Button2 {
+            position: relative;
+            top: 15px;
+            left: 410px;
+            color: black;
+            background-color: white;
+            width: 100px;
+            height: 30px;
+        }
+
+        #Button3 {
+            position: relative;
+            top: 15px;
+            left: 430px;
+            color: black;
+            background-color: white;
+            width: 100px;
+            height: 30px;
+        }
+
+        #ul2 {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 120px;
+            background-color: floralwhite;
+        }
+
+            #ul2 li a {
+                position: relative;
+                left: 750px;
+                top: 20px;
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            #ul2 li {
+                float: left;
+            }
+
+                #ul2 li a:hover {
+                    background-color: blue;
+                }
+
+        #white {
+            width: 1800px;
+            height: 80px;
+            background-color: white;
+        }
+
+        #blue {
+            width: 1500px;
+            height: 60px;
+            background-color: blue;
+            position: relative;
+            top: 10px;
+            left: 120px;
+        }
+
+        #bb {
+            position: relative;
+            top: 15px;
+            color: white;
+        }
+
+        #badi {
+            width: 1785px;
+            height: 820px;
+            background-color: antiquewhite;
+        }
+
+        #p1 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        #p2 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        #p3 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        #p4 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        #Rangi {
+            text-align: center;
+            background-color: blue;
+            background-image: linear-gradient(to right, blue, green);
+        }
+
+        #itt {
+            position: relative;
+            left: 850px;
+        }
+
+        #bluesmall {
+            height: 439px;
+            background-color: blue;
+        }
+
+        #r1 {
+            position: relative;
+            top: 110px;
+            left: 45px;
+        }
+
+        #r2 {
+            position: relative;
+            top: 110px;
+            left: 420px;
+        }
+
+        #r3 {
+            position: relative;
+            top: 110px;
+            left: 820px;
+        }
+
+        #r4 {
+            position: relative;
+            top: 110px;
+            left: 1220px;
+        }
+
+        #pw {
+            height: 1000px;
+            background-color: whitesmoke;
+        }
+
+        #b {
+            position: relative;
+            top: 10px;
+            left: 790px;
+            float: left;
+        }
+
+        #g {
+            position: relative;
+            top: 10px;
+            left: 800px;
+            float: left;
+        }
+
+        #pr {
+            position: relative;
+            top: 90px;
+            left: 600px;
+        }
+
+        #m1 {
+        }
+
+        #mbc1 {
+            position: relative;
+            top: 100px;
+            left: 10px;
+            width: 350px;
+            height: 300px;
+            background-color: white;
+        }
+
+        #pr1 {
+            position: relative;
+            top: 70px;
+            left: 85px;
+        }
+
+        #un {
+            position: relative;
+            top: 1px;
+            left: 90px;
+        }
+
+        #mbc2 {
+            position: relative;
+            top: 100px;
+            left: 10px;
+            width: 350px;
+            height: 300px;
+            background-color: white;
+        }
+
+        #pr2 {
+            position: relative;
+            top: 70px;
+            left: 85px;
+        }
+
+        #un2 {
+            position: relative;
+            top: 1px;
+            left: 120px;
+        }
+
+        #mbc3 {
+            position: relative;
+            top: 100px;
+            left: 10px;
+            width: 350px;
+            height: 300px;
+            background-color: white;
+        }
+
+        #pr3 {
+            position: relative;
+            top: 70px;
+            left: 85px;
+        }
+
+        #un3 {
+            position: relative;
+            top: 1px;
+            left: 120px;
+        }
+
+        #mbc4 {
+            position: relative;
+            top: 100px;
+            left: 10px;
+            width: 350px;
+            height: 300px;
+            background-color: white;
+        }
+
+        #pr4 {
+            position: relative;
+            top: 70px;
+            left: 85px;
+        }
+
+        #un4 {
+            position: relative;
+            top: 1px;
+            left: 110px;
+        }
+
+        #mbc6 {
+            position: relative;
+            top: 100px;
+            left: 10px;
+            width: 350px;
+            height: 300px;
+            background-color: white;
+        }
+
+        #pr6 {
+            position: relative;
+            top: 70px;
+            left: 85px;
+        }
+
+        #un6 {
+            position: relative;
+            top: 1px;
+            left: 110px;
+        }
+
+        #mbc5 {
+            position: relative;
+            top: 100px;
+            left: 10px;
+            width: 350px;
+            height: 300px;
+            background-color: white;
+        }
+
+        #pr5 {
+            position: relative;
+            top: 70px;
+            left: 70px;
+        }
+
+        #un5 {
+            position: relative;
+            top: 1px;
+            left: 110px;
+        }
+
+        #mission {
+            height: 500px;
+            background-color: white;
+        }
+
+        #SIDEWIDE {
+            position: relative;
+            top: 25px;
+            left: 35px;
+            float: left;
+        }
+
+        #SIDEWIDE2 {
+            position: relative;
+            top: 25px;
+            left: 755px;
+            float: left;
+        }
+
+        #for1 {
+            position: absolute;
+            top: 3250px;
+            left: 40px;
+            width: 500px;
+            height: 150px;
+            background-color: lightgray;
+        }
+
+        #hpt {
+            position: relative;
+            top: 40px;
+            left: 45px;
+            float: left
+        }
+
+        #SIDEWIDE3 {
+            position: relative;
+            top: 30px;
+            left: 75px;
+            float: left;
+        }
+
+        #for2 {
+            position: absolute;
+            top: 3250px;
+            left: 580px;
+            width: 500px;
+            height: 150px;
+            background-color: lightgray;
+        }
+
+        #hpt2 {
+            position: relative;
+            top: 40px;
+            left: 45px;
+            float: left
+        }
+
+        #SIDEWIDEto {
+            position: relative;
+            top: 30px;
+            left: 75px;
+            float: left;
+        }
+
+        #for3 {
+            position: absolute;
+            top: 3450px;
+            left: 40px;
+            width: 500px;
+            height: 150px;
+            background-color: lightgray;
+        }
+
+        #hpt3 {
+            position: relative;
+            top: 40px;
+            left: 45px;
+            float: left
+        }
+
+        #SIDEWIDEthr {
+            position: relative;
+            top: 30px;
+            left: 75px;
+            float: left;
+        }
+
+        #for4 {
+            position: absolute;
+            top: 3450px;
+            left: 580px;
+            width: 500px;
+            height: 150px;
+            background-color: lightgray;
+        }
+
+        #hpt4 {
+            position: relative;
+            top: 40px;
+            left: 45px;
+            float: left
+        }
+
+        #SIDEWIDEfr {
+            position: relative;
+            top: 30px;
+            left: 75px;
+            float: left;
+        }
+
+        #mar {
+            position: absolute;
+            top: 3250px;
+            left: 1150px;
+            width: 350px;
+            height: 300px;
+        }
+
+        #marqi2 {
+            font-size: 17px;
+        }
+
+        #ekaurwhite {
+            height: 300px;
+            background-color: white
+        }
+
+        #bg1 {
+            position: relative;
+            top: 80px;
+            left: 750px;
+            float: left;
+        }
+
+        #bg2 {
+            position: relative;
+            top: 80px;
+            left: 760px;
+            float: left;
+        }
+
+        #ittt {
+            position: relative;
+            top: 155px;
+            left: 600px;
+        }
+
+        #bhaiekaur {
+            background-color: white;
+            height: 500px;
+        }
+
+        #abey {
+            background-color: black;
+            height: 500px;
+            width: 1400px;
+        }
+
+
+        .rangde {
+            color: white;
+        }
+
+        #rg1 {
+            position: relative;
+            top: 65px;
+            left: 20px;
+        }
+
+        #rg2 {
+            position: relative;
+            top: 70px;
+            left: 20px;
+        }
+
+        #rg3 {
+            position: relative;
+            top: 75px;
+            left: 20px;
+        }
+
+
+        #rg4 {
+            position: relative;
+            top: 80px;
+            left: 20px;
+        }
+
+        #rg5 {
+            position: relative;
+            top: 85px;
+            left: 20px;
+        }
+
+        #rg6 {
+            position: relative;
+            top: 90px;
+            left: 20px;
+        }
+
+        #rg7 {
+            position: relative;
+            top: 95px;
+            left: 20px;
+        }
+
+
+        #horr {
+            position: relative;
+            top: 5px;
+            left: 360px;
+        }
+
+        #horr1 {
+            position: relative;
+            top: 5px;
+            left: 400px;
+        }
+
+        #kdh {
+            background-color: Highlight;
+            height: 50px;
+        }
+
+        #copyright {
+            position: relative;
+            top: 8px;
+            left: 8px;
+        }
+
+        #z1:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        #z2:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        #z3:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        #z4:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        #z5:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        #mbc1:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        #mbc2:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        #mbc3:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        #mbc4:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        #mbc5:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+
+        #mbc6:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body id="body">
+
+    <ul id="ul1">
+        <li><img src="fb.png" alt="" id="fb" height="42" width="42"> </li>
+        <li> <img src="twitter.png" id="twtr" alt="" height="42" width="42"></li>
+        <li><img src="instagram.jpg" alt="" id="inst" height="42" width="42"></li>
+        <li><img src="whstapp.jpg" alt="" id="whts" height="42" width="42"></li>
+        <li id="h">Millions of people's life has changed, millions more awaiting your donation</li>
+        <li><input id="Button1" type="button" value="UK Donor" /></li>
+        <li><input id="Button2" type="button" value="Donate Now" /></li>
+        <li><input id="Button3" type="button" value="SMIT Results" /></li>
+
+    </ul>
+    <ul id="ul2">
+        <li><img src="saylani png.jpeg" alt="" id="whts" height="100" width="350" /></li>
+        <li>  <a href="#news">Home</a>
+        </li>
+        <li><a href="#news">About</a></li>
+        <li><a href="#contact">Saylani Services</a></li>
+        <li><a href="#about">Future Project</a></li>
+        <li><a href="#about">Media</a></li>
+        <li><a href="#about">News</a></li>
+        <li><a href="#about">Donation</a></li>
+    </ul>
+    <img src="di.png" alt="" id="bacha" height="600" width="1800" />
+    <div id="white">
+        <div id="blue">
+            <marquee behavior="scroll" direction="left" id="bb"> (News-1 Dated:15-06-2019)  PIAICNext Phase Admission in Islamabad And Faisalabad" .  (News-7 Dated:19-02-2019)  Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training. More Details</marquee>
+
+        </div>
+    </div>
+    <div id="badi">
+        <h3 id="Rangi">
+            INTRODUCTION
+        </h3>
+        <img src="itt.jpg" alt="" id="itt" height="50" width="80" />
+        <p id="p1">
+            Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial troubles of the poor, giving people a chance to live a dignified life and spreading happiness.
+
+        </p>
+        <br />
+
+        <p id="p2">
+            We are an organization that believes in lighting up the lives of underprivileged people across the world. We endeavor to provide the best quality services in areas including food, education, medical and social welfare free of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people each day, hundreds more are given the hope of life through medical health care, many are educated to become leaders of tomorrow and several are given the opportunity to stand on their feet financially.
+        </p>
+        <br />
+        <p id="p3">
+            Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125 branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide branches are operating under the guidance of a team of over 2,000 working professionals who help almost 125,000 people on a daily basis.
+
+
+        </p>
+        <br />
+        <p id="p4">
+            We strongly believe that a little help goes a long way and our work would not be possible without the generous support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting our causes and enabling us to serve the needs of people in need.
+        </p>
+    </div>
+    <div id="bluesmall">
+        <table width="300px">
+            <tr>
+                <td id="r1">
+                    <img src="chmch.png" alt="" id="" height="50" width=80 />
+                    <h3 style="color:white">125,000</h3>
+                    <h3 style="color:white" id="wht">
+                        DAILY DASTARKHWAN
+                    </h3>
+                    <h3 style="color:forestgreen" id="">
+                        (MONTHLY)
+                    </h3>
+                </td>
+                <td id="r2">
+                    <img src="fms.png" alt="" id="" height="50" width=80 />
+                    <h3 style="color:white">7,500</h3>
+                    <h3 style="color:white" id="wht">
+                        FAMILY ADOPTION
+                    </h3>
+                    <h3 style="color:forestgreen" id="">
+                        (MONTHLY)
+                    </h3>
+                </td>
+                <td id="r3">
+                    <img src="doctor.png" alt="" id="" height="50" width=80 />
+                    <h3 style="color:white">43,749</h3>
+                    <h3 style="color:white" id="wht">
+                        MEDICAL
+                    </h3>
+                    <h3 style="color:forestgreen" id="">
+                        (MONTHLY)
+                    </h3>
+                </td>
+                <td id="r4">
+                    <img src="degree.png" alt="" id="" height="50" width=80 />
+                    <h3 style="color:white">180,000</h3>
+                    <h3 style="color:white" id="wht">
+                        EDUCATION
+                    </h3>
+                    <h3 style="color:forestgreen" id="">
+                        (MONTHLY)
+                    </h3>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="pw">
+        <h2 style="color:blue" id="b">
+            WHAT WE
+        </h2>
+        <h2 style="color:green" id="g">
+            ARE DOING?
+        </h2>
+        <img src="itt.jpg" alt="" id="pr" height="50" width=80 />
+        <br />
+        <table width="300px" cellspacing="70">
+            <tr>
+                <td id="m1">
+                    <div id="mbc1">
+                        <img src="sadqah.jpg" alt="" id="pr1" height="110" width=150 />
+                        <br />
+
+                    </div>
+                    <h3 style="color:blue" id="un">
+                        ONLINE SADQAH
+                    </h3>
+                </td>
+                <td id="m2">
+                    <div id="mbc2">
+                        <img src="fms.png" alt="" id="pr2" height="110" width=150 />
+                        <br />
+
+                    </div>
+                    <h3 style="color:blue" id="un2">
+                        WELFARE
+                    </h3>
+                </td>
+                <td id="m3">
+                    <div id="mbc3">
+                        <img src="doctor.png" alt="" id="pr3" height="110" width=150 />
+                        <br />
+
+                    </div>
+                    <h3 style="color:blue" id="un3">
+                        MEDICAL
+                    </h3>
+                </td>
+
+            </tr>
+            <tr>
+                <td id="m4">
+                    <div id="mbc4">
+                        <img src="chmch.png" alt="" id="pr4" height="110" width=150 />
+                        <br />
+
+                    </div>
+                    <h3 style="color:blue" id="un4">
+                        DASTARKHWAN
+                    </h3>
+                </td>
+                <td id="m5">
+                    <div id="mbc5">
+                        <img src="toti.jpg" alt="" id="pr5" height="110" width=150 />
+                        <br />
+
+                    </div>
+                    <h3 style="color:blue" id="un5">
+                        RO PLANT
+                    </h3>
+                </td>
+                <td id="m6">
+                    <div id="mbc6">
+                        <img src="degree.png" alt="" id="pr6" height="110" width=150 />
+                        <br />
+
+                    </div>
+                    <h3 style="color:blue" id="un6">
+                        EDUCATION
+                    </h3>
+                </td>
+
+            </tr>
+
+        </table>
+    </div>
+    <div id="mission">
+        <h2 id="SIDEWIDE" style="color:blue">
+            MISSION AND UPCOMING PROJECTS
+
+        </h2>
+        <h2 id="SIDEWIDE2" style="color:blue">
+            Upcoming Events
+        </h2>
+        <table width="50px">
+            <tr>
+                <td>
+                    <div id="for1">
+                        <img src="hepatitis.jpg" alt="" id="hpt" height="50" width=50 />
+                        <h2 id="SIDEWIDE3" style="color:blue">
+                            HEPATITIS
+
+                        </h2>
+                    </div>
+                </td>
+                <td>
+                    <div id="for2">
+                        <img src="housing.jpg" alt="" id="hpt2" height="50" width=50 />
+                        <h2 id="SIDEWIDEto" style="color:blue">
+                            HOUSING SOCIETY
+
+                        </h2>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="for3">
+                        <img src="IT.png" alt="" id="hpt3" height="50" width=50 />
+                        <h2 id="SIDEWIDEthr" style="color:blue">
+                            IT LITERACY
+
+
+                        </h2>
+                    </div>
+                </td>
+                <td>
+                    <div id="for4">
+                        <img src="desert.jpg" alt="" id="hpt4" height="50" width=50 />
+                        <h2 id="SIDEWIDEfr" style="color:blue">
+                            THARPARKAR
+
+
+
+                        </h2>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div style="background-color:white" id="mar">
+        <marquee behavior="scroll" direction="up" id="marqi2" style="color:black">
+            Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan .More Details
+
+            Entry Test Accouncement (Graphic Designing & Video Editing/Animation Course) On Sunday 3rd March 2019 @ 11:00Am Vanue: 4rh Floor, Saylani Welfare International TrustHeadOffice Bahadurabad .More Details
+
+            Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training .More Details
+
+            PIAIC Entrance Exam Merit Ranking List Announced.More Details
+
+            President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. More DetailsSaylani Welfare Distributing Ration & Clothes to affected people of Balochistan .More Details
+        </marquee>
+ 
+
+    </div>
+    <div id="ekaurwhite">
+        <br />
+        <br />
+        <h2 id="bg1" style="color:blue">
+            IMAGE
+        </h2>
+        <h2 id="bg2" style="color:forestgreen">
+            GALLERY
+
+        </h2>
+        <img src="itt.jpg" alt=""  id="ittt" height="100" width="100" />
+ 
+    </div>
+    <div id="bhaiekaur">
+        <table width="100px" cellspacing="12">
+            <tr>
+                <td>
+                    <img src="rashan2 (1).jpg" alt="" id="z1" height="300" width="340" />
+                </td>
+                <td>
+                    <img src="food.jpg" alt="" id="z2" height="300" width="340" />
+                </td>
+                <td>
+                    <img src="hazrat.jpg" alt="" id="z3" height="300" width="340" />
+                </td>
+                <td>
+                    <img src="rashan2 (1).jpg" alt="" id="z4" height="300" width="340" />
+                </td>
+                <td>
+                    <img src="hazrat2.jpg" alt="" id="z5" height="300" width="340" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="abey">
+        <h3 class="rangde" id="rg1">
+            Head Office,
+        </h3>
+        <h3 class="rangde" id="rg2">
+            A-25, Bahadurabad Chowrangi Karachi, Pakistan
+        </h3>
+        <h3 class="rangde" id="rg3">
+            UAN: 111-729-526
+        </h3>
+
+        <h3 class="rangde" id="rg4">
+            CELL: 92-311-1729526
+        </h3>
+        <h3 class="rangde" id="rg5">
+            USA NO +1(716)941 7792
+        </h3>
+        <h3 class="rangde" id="rg6">
+            UK NO (+44)115 970 6256
+        </h3>
+        <h3 class="rangde" id="rg7">
+            info@saylaniwelfare.com
+        </h3>
+        <h3 style="color:white" id="horr">
+            (+0092-213) 4130786-90
+        </h3>
+        <h3 style="color:white" id="horr1">
+            Useful Links
+        </h3>
+
+    </div>
+    <div id="kdh"  >
+        <h4 id="copyright" style="color:white">
+            Copyright © 2020 Saylani Welfare
+
+
+        </h4>
+    </div>
+ 
+</body>
+</html>
